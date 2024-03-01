@@ -80,14 +80,3 @@ char* vigenere_decrypt(const char* key, const char* text) {
     return decrypted_text;
 }
 
-int main() {
-    const char* input = "Hello world!";
-    char* reversed = reverse(input);
-    if (reversed != NULL) {
-        printf("%s\n", reversed);
-        free(reversed);
-    } else {
-        printf("Input is NULL.\n");
-    }
-    return 0;
-}
